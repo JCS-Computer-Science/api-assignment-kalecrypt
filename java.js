@@ -1,8 +1,8 @@
-var test = document.getElementById("howdy").value;
-
+var bro = document.getElementById("howdy").value;
 function test(){
-    if (test == true){
-    alert("hay")
+    if (bro === true){
+    alert("hay");
 }else{
     alert("howdy")
+}
 }
