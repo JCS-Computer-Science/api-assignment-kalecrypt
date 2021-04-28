@@ -1,11 +1,46 @@
 <!DOCTYPE html>
-<html> 
-<head> 
+<html>
+ 
+<head>
+    <style>
+        h2.showtext {
+            font-size: 50px;
+            display: block;
+        }
+ 
+        button.button {
+            font-size: 90px;
+        }
+    </style>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>
+ 
+    </title>
+    <script src="java.js" defer>
+    </script>
 </head>
- <body style="background-color:black;"> 
-    <button onclick="test()" type="submit" > test </button>
-    <input type="checkbox" id="howdy"> </input>
-    <script src="java.js" >
-</script>
- </body>
- </html>
+ 
+<body id="background">
+    <p id="colour"></p>
+    <div class="text-center">
+ 
+        <h2 class="showtext" id="textToBechanged"> push the button to get a cat fact and image</h2>
+        <br>
+        <img id="apiResponceImage" src="">
+        <br>
+        <br>
+        <button onclick="buttonFunction() " class="button " id="buttonid">begin </button>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</body>
+ 
+</html>
+ 
