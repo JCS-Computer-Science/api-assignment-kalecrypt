@@ -29,5 +29,5 @@ async function getCatFactTrue() {
     factVerificationStatus = data.status.verified
     console.log(data.text)
     textResponce = data.text
-    document.getElementById("textToBechanged").innerHTML = textResponce;
+    document.getElementById("textToBeChanged").innerHTML = textResponce;
 }
