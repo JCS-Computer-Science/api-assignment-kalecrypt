@@ -1,9 +1,8 @@
-var imageresponce;
 var textResponce;
 var factVerificationStatus;
  
 async function buttonFunction() {
-    await getcatimage()
+    await getCatImage()
     await getCatFactTrue()
     while (true) {
         if (factVerificationStatus === true) {
@@ -16,7 +15,7 @@ async function buttonFunction() {
 }
  
  
-async function getcatimage() {
+async function getCatImage() {
     var response = await fetch('https://cataas.com/cat?json=true')
     var data1 = await response.json()
     document.getElementById("apiResponceImage").src = "https://cataas.com" + data1.url;
